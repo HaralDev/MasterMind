@@ -178,7 +178,7 @@ while play == True:                                            # when true this 
     code = gencode();                                          # Generate random four number string
     
     
-    for i in range(1,2):                                       # Loop 10 times, that is how many times the user has
+    for i in range(1,11):                                       # Loop 10 times, that is how many times the user has
         
         try_i = "Guess number {:d}: ".format(i)                # Preset the string which displays the amount of times ...
                                                                # the user has already guessed
